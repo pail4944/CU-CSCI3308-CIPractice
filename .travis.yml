@@ -1,3 +1,4 @@
 language: c
-install: yum install check-devel
-script: make test
+script:
+	- yum install check-devel 
+	- make test
