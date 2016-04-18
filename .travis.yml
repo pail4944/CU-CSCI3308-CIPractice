@@ -1,2 +1,3 @@
 language: c
+install: yum install check-devel
 script: make test
